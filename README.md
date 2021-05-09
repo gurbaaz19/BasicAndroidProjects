@@ -2,7 +2,7 @@
 
 #Age in Minutes/Days
 
-<img src="README_RESOURCES/1-1.jpg">
+<img src="README_RESOURCES/1-1.jpg" height="20%">
 <img src="README_RESOURCES/1-2.jpg">
 <img src="README_RESOURCES/1-3.jpg">
 
