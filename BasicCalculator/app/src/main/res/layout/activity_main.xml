@@ -11,10 +11,12 @@
         android:id="@+id/tvInput"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="#efefef"
 
+        android:text="0"
         android:textSize="40sp"
         android:maxLength="12"
+        android:gravity="bottom|right|center_vertical"
+        android:padding="10dp"
         />
     <!-- Row 1 -->
     <LinearLayout

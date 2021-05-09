@@ -111,4 +111,5 @@ class MainActivity : AppCompatActivity() {
             value.contains("/") || value.contains("*") || value.contains("+") || value.contains("-")
         }
     }
+
 }
