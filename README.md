@@ -10,6 +10,7 @@
 
 <img src="README_RESOURCES/2-1.jpg" width="400px">
 <img src="README_RESOURCES/2-2.jpg" width="400px">
+<img src="README_RESOURCES/2-3.jpg" width="400px">
 
 ##Quiz App
 
