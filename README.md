@@ -1,5 +1,7 @@
 # BasicAndroidProjects
 
+The above Apps are made following certain tutorials in order to learn new concepts while building small projects.
+
 ## Age in Minutes/Days
 
 <img src="README_RESOURCES/1-1.jpg" width="400px">
