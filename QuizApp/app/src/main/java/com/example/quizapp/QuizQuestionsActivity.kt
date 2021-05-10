@@ -132,7 +132,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
                     } else {
                         btn_submit.text = "GO TO NEXT QUESTION"
                     }
-
+                    mAttempted = true
                     mSelectedOptionPosition = 0
                 }
             }
@@ -173,6 +173,5 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
             this,
             R.drawable.selected_option_border_bg
         )
-        mAttempted = true
     }
 }
