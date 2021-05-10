@@ -12,12 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
 
-        android:text="0"
-        android:textSize="40sp"
-        android:maxLength="12"
         android:gravity="bottom|right|center_vertical"
+        android:maxLength="12"
         android:padding="10dp"
-        />
+        android:text="0"
+        android:textSize="50sp" />
     <!-- Row 1 -->
     <LinearLayout
     android:layout_width="match_parent"
@@ -27,41 +26,53 @@
     android:orientation="horizontal"
     >
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnSeven"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="7"
-        android:onClick="onDigit"
-        />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSeven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_border_bg"
+            android:onClick="onDigit"
+            android:text="7"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnEight"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="8"
-        android:onClick="onDigit"
-        />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_border_bg"
+            android:onClick="onDigit"
+            android:text="8"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnNine"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="9"
-        android:onClick="onDigit"
-        />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_num_border_bg"
+            android:onClick="onDigit"
+            android:text="9"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnDivide"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="/"
-        android:onClick="onOperator"
-        />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDivide"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_operation_border_bg"
+            android:onClick="onOperator"
+            android:text="/"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
 
 </LinearLayout>
@@ -78,37 +89,49 @@
             android:id="@+id/btnFour"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:text="4"
+            android:background="@drawable/button_num_border_bg"
             android:onClick="onDigit"
-            />
+            android:text="4"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnFive"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:text="5"
+            android:background="@drawable/button_num_border_bg"
             android:onClick="onDigit"
-            />
+            android:text="5"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnSix"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:text="6"
+            android:background="@drawable/button_num_border_bg"
             android:onClick="onDigit"
-            />
+            android:text="6"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnMultiply"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:text="*"
+            android:background="@drawable/button_operation_border_bg"
             android:onClick="onOperator"
-            />
+            android:text="*"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
 
     </LinearLayout>
@@ -125,37 +148,49 @@
             android:id="@+id/btnOne"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:text="1"
+            android:background="@drawable/button_num_border_bg"
             android:onClick="onDigit"
-            />
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnTwo"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:text="2"
+            android:background="@drawable/button_num_border_bg"
             android:onClick="onDigit"
-            />
+            android:text="2"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnThree"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:text="3"
+            android:background="@drawable/button_num_border_bg"
             android:onClick="onDigit"
-            />
+            android:text="3"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnSubtract"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:text="-"
+            android:background="@drawable/button_operation_border_bg"
             android:onClick="onOperator"
-            />
+            android:text="-"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
 
     </LinearLayout>
@@ -172,37 +207,49 @@
             android:id="@+id/btnDecimal"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:text="."
+            android:background="@drawable/button_num_border_bg"
             android:onClick="onDecimalPoint"
-            />
+            android:text="."
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnZero"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:text="0"
+            android:background="@drawable/button_num_border_bg"
             android:onClick="onDigit"
-            />
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnClear"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:text="CLR"
+            android:background="@drawable/button_clear_border_bg"
             android:onClick="onClear"
-            />
+            android:text="CLR"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnAdd"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:text="+"
+            android:background="@drawable/button_operation_border_bg"
             android:onClick="onOperator"
-            />
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
 
     </LinearLayout>
@@ -219,9 +266,12 @@
             android:id="@+id/btnEqual"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@drawable/button_equal_border_bg"
             android:onClick="onEqual"
             android:text="="
-            />
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
 
     </LinearLayout>
