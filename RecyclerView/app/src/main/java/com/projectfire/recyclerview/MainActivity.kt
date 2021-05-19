@@ -13,21 +13,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        recycler_view_items.layoutManager  = LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false)
-
-        recycler_view_items_2.layoutManager  = LinearLayoutManager(this)
+        recycler_view_items.layoutManager  = LinearLayoutManager(this)
 
         val itemAdapter = ItemAdapter(this,getItemsList())
 
         recycler_view_items.adapter = itemAdapter
-        recycler_view_items_2.adapter = itemAdapter
     }
 
-    private fun getItemsList(): ArrayList<String>{
-        val list = ArrayList<String>()
+    private fun getItemsList(): ArrayList<DataModel>{
+        val list = ArrayList<DataModel>()
 
-        for (i in 1..15){
-            list.add("Item $i")
+        for (i in 1..45){
+            list.add(DataModel("Item $i ViewType ${i%3-1}", i%3-1))
         }
 
         return list
